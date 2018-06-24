@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Myproj - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\raul3\AppData\Local\Temp\RSP612B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Myproj.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\raul3\Desktop\Myproj\MyprojDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\raul3\AppData\Local\Temp\RSP612B.tmp" 
+Creating temporary file "C:\Users\raul3\AppData\Local\Temp\RSP612C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Myproj.pdb" /debug /machine:I386 /out:"Debug/Myproj.exe" /pdbtype:sept 
+.\Debug\APPMODUL.OBJ
+.\Debug\BasicExcel.obj
+.\Debug\Myproj.obj
+.\Debug\MyprojDlg.obj
+.\Debug\PCA_Demension.obj
+.\Debug\StdAfx.obj
+.\Debug\Myproj.res
+]
+Creating command line "link.exe @C:\Users\raul3\AppData\Local\Temp\RSP612C.tmp"
+<h3>Output Window</h3>
+Compiling...
+MyprojDlg.cpp
+c:\users\raul3\desktop\myproj\pca_demension.h(26) : warning C4091: 'typedef ' : ignored on left of 'struct Tree' when no variable is declared
+C:\Users\raul3\Desktop\Myproj\MyprojDlg.cpp(269) : warning C4551: function call missing argument list
+C:\Users\raul3\Desktop\Myproj\MyprojDlg.cpp(371) : warning C4551: function call missing argument list
+C:\Users\raul3\Desktop\Myproj\MyprojDlg.cpp(578) : warning C4551: function call missing argument list
+C:\Users\raul3\Desktop\Myproj\MyprojDlg.cpp(679) : warning C4551: function call missing argument list
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > const *,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> >,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > const &,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > *,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> >,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > &,std::vector<YExcel::BasicExcelCell,std::allocator<YExcel::BasicExcelCell> > *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK const *,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK const &,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files (x86)\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK *,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK &,YExcel::Worksheet::CellTable::RowBlock::CellBlock::MulRK::XFRK *,int>' : identifier was truncated to '255' characters in the debug information
+Linking...
+Build : warning : failed to (or don't know how to) build 'D:\VC98\MFC\SRC\APPMODUL.CPP'
+
+
+
+
+<h3>Results</h3>
+Myproj.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
